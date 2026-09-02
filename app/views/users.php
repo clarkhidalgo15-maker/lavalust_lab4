@@ -75,7 +75,7 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 <body>
     <main>
         <h1>User Management</h1>
-        <p>Users retrieved dynamically from the <strong>users</strong> table.</p>
+        <p>Users retrieved dynamically from the <strong>Aiven MySQL users</strong> table.</p>
         <div class="table-wrap">
             <?php if (empty($users)): ?>
                 <div class="empty">No users found.</div>
